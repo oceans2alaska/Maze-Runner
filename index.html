@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maze Runner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <h1>Maze Runner</h1>
+    <div class="hud">
+      <span id="score">Score: 0</span>
+      <span id="speed">Speed: 1.0x</span>
+    </div>
+    <canvas id="game" width="560" height="760" aria-label="Maze Runner game"></canvas>
+    <p class="help">
+      Move with <kbd>Left</kbd>/<kbd>Right</kbd> or <kbd>A</kbd>/<kbd>D</kbd>.
+      Press <kbd>R</kbd> to restart after a crash.
+    </p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
